@@ -1,0 +1,70 @@
+body {
+    background-color:#A69993;
+    /*line-height: 12px;*/
+    font-family: 'Static';
+    margin: 0px;
+}
+header {
+    position: relative;
+    height: 154px;
+    margin-top: 32px;
+}
+
+footer{
+    margin-top: 80px;
+}
+#logo{
+    margin: 0px 0px 0px 85px;
+}
+
+.intro{
+    float: left;
+    margin-left: 85px;
+    line-height: 30px;
+}
+
+#titol{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+}
+#sub1{
+    font-size: 18px;
+    color: #D8D7D3;
+    letter-spacing: 3px;
+}
+
+#sub2{
+    font-size: 18px;
+    margin-bottom: 49px;
+    color: #615C58;
+    letter-spacing: 3px;
+}
+
+#menuSuperior{
+    font-size: 20px;
+    float: right; 
+    margin-top: 11px;
+    margin-right: 85px;
+    letter-spacing: 2px;
+    line-height: 33px;
+}
+
+#menuSuperior span:hover{
+	color:white;
+}
+
+.tr {
+	display: none;
+}
+
+#wn{
+    -webkit-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75);  
+}
+
+@font-face {
+  font-family: 'Static';
+  src: url('http://www.fontsaddict.com/fontface/static.otf');
+}
