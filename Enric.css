@@ -93,13 +93,23 @@ header #logo a {
 /*	height: 400px;*/
 }
 #wn{
-	-webkit-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75);
+/*	height: 340px;*/
 }
 #scrollbar_b {
 	height: 20px;
 	background-color: black;
+}
+#main .images img {
+	-webkit-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75),
+		0px 0px 58px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75),
+		0px 0px 58px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75),
+		0px 0px 58px 1px rgba(0,0,0,0.75);
+}
+#main .images .space {
+	min-width: 20px;
+	background-color: white;
 }
 
 /*
