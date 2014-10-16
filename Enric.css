@@ -3,7 +3,7 @@
  */
 html, body {
 	background-color: #4b423d;
-	/*line-height: 12px;*/
+    background-image:url(Imatges/punt.png);
 	font-family: 'Static';
 	margin: 0px;
 	height: 100%;
