@@ -19,25 +19,25 @@ div#scrollbar .left {
     position:absolute; 
     left:0; top:0;
     width:26px; height:26px; /* specify width and height of your image */
-    background-image:url('Imatges/BOTO_scrolla1.png');
+    background-image:url('Imatges/bt_left.png');
     background-repeat: no-repeat;
     cursor: pointer;
 }
 div#scrollbar .left:active,
 div#scrollbar .left:hover {
-	background-image:url('Imatges/BOTO_scrolla3.png');
+	background-image:url('Imatges/bt_left.png');
 }
 div#scrollbar .right { 
     position:absolute; 
     right:0; top:0;
     width:26px; height:26px; /* specify width and height of your image */
-    background-image:url('Imatges/BOTO_scrollb1.png');
+    background-image:url('Imatges/bt_right.png');
     background-repeat: no-repeat;
     cursor: pointer;
 }
 div#scrollbar .right:active,
 div#scrollbar .right:hover {
-	background-image:url('Imatges/BOTO_scrollb3.png');
+	background-image:url('Imatges/bt_right.png');
 }
 div#scrollbar .track { 
     position:absolute; /* track must be positioned */
@@ -46,7 +46,7 @@ div#scrollbar .track {
     left:56px; /* equal to width of .left image + optional gap */
     width:784px; /* width of scrollbar minus 2 X image width minus 2 X gap between */
     height:8px;
-    background-color:#fff;
+    background: #000000 url('Imatges/barra2.svg')no-repeat;
 }
 div#scrollbar .dragBar {
     position:absolute; /* dragBar must be positioned */

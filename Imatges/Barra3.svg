@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="70px" height="12px" viewBox="0 0 70 12" enable-background="new 0 0 70 12" xml:space="preserve">
+<rect x="-140.348" width="210.348" height="12"/>
+<g>
+	<g>
+		<g>
+			<g>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-118.0508" y1="5.999" x2="47.3174" y2="5.999">
+					<stop  offset="0.0061" style="stop-color:#EF9201"/>
+					<stop  offset="1" style="stop-color:#DF051C"/>
+				</linearGradient>
+				<path fill="url(#SVGID_1_)" d="M47.317,5.999c0,1.729-7.325,3.144-16.278,3.144h-132.812c-8.953,0-16.278-1.415-16.278-3.144
+					s7.325-3.144,16.278-3.144H31.039C39.992,2.855,47.317,4.271,47.317,5.999z"/>
+			</g>
+		</g>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-118.051" y="2.855" width="165.368" height="6.287">
+
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="-118.051" y="2.855" width="165.368" height="6.287" id="SVGID_2_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+
+				<image overflow="visible" width="171" height="12" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAG6AAACKgAAAvX/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAAwAqwMBIgACEQEDEQH/
+xACLAAEBAAMBAQAAAAAAAAAAAAAGAAEDBAUHAQEAAAAAAAAAAAAAAAAAAAAAEAACAgECBwEBAAAA
+AAAAAAAABSYXBBIDMAERAhMWBxQGEQABAQcBBgQHAAAAAAAAAAAAARHRApKiQ0QDITFBEhMUMkKC
+BBBxgZGhweMSAQAAAAAAAAAAAAAAAAAAADD/2gAMAwEAAhEDEQAAACS0D6J9AyTyK4pCuKQrikK4
+pCuKQrikK4pCvlPcR1mtug//2gAIAQIAAQUA4f8A/9oACAEDAAEFAOH/AP/aAAgBAQABBQBOo7WW
+5h/O1+53cvnKErlCVyhK5QlcoSuUJXKErlCVyhK5QlcoSuUJXKErlCVyhK5QlcoTM+cqNDf+R2MH
+b0G35NeL7D5uXvvSek9J6T0npPSek9J6T0npPSek9J6T0z/bdOR+3of/2gAIAQICBj8AP//aAAgB
+AwIGPwA//9oACAEBAQY/AESPXh0oWsVOJDFqe8ijh4wIqI37FyZXlyZXlyZXlyZXlyZXlyZXlyZX
+lyZXlyZXlyZXlyZXlyZXlyZXlyZXlyZXlyZXlyZXjdHXi0VTisTWzNOfS92kTN/Mz9MPEm9m/wDP
+yE6Tefy8rW/RhD23c9Ty+NlWw2dwz0GRQZFBkUGRQZFBkUGRQZFBkUGRQZFBkUGRQZFBkUGRQJ3n
+csbsZ/MTuuqxuzqc2/1fD//Z" transform="matrix(1 0 0 1 -121 0)">
+			</image>
+		</g>
+	</mask>
+	<g opacity="0.75" mask="url(#SVGID_2_)">
+		<g>
+			<g>
+				<path fill="#2B0909" d="M47.317,5.999c0,1.729-7.325,3.144-16.278,3.144h-132.812c-8.953,0-16.278-1.415-16.278-3.144
+					s7.325-3.144,16.278-3.144H31.039C39.992,2.855,47.317,4.271,47.317,5.999z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

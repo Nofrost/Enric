@@ -3,7 +3,7 @@
  */
 html, body {
 	background-color: #4b423d;
-    background-image:url(Imatges/punt.png);
+    background-image:url(Imatges/FonsPunts2.svg);
 	font-family: 'Static';
 	margin: 0px;
 	height: 100%;
@@ -81,6 +81,7 @@ header #logo a {
 
 #menuRight span:hover{
 	color:white;
+    cursor:pointer;
 }
 
 
@@ -94,28 +95,69 @@ header #logo a {
 }
 #wn{
 /*	height: 340px;*/
+    /*-webkit-box-shadow: 0 -8px 6px -6px black;
+	   -moz-box-shadow: 0 -8px 6px -6px black;
+	        box-shadow: 0 -8px 6px -6px black;*/
+    -webkit-box-shadow: 0 0px -8px 87px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0px -8px 87px 0px rgba(0,0,0,0.75);
+    box-shadow: 0 0px -8px 87px 0px rgba(0,0,0,0.75);
+
+
 }
 #scrollbar_b {
 	height: 20px;
 	background-color: black;
 }
-#main .images img {
-	-webkit-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75),
-		0px 0px 58px 1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75),
-		0px 0px 58px 1px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 58px 1px rgba(0,0,0,0.75),
-		0px 0px 58px 1px rgba(0,0,0,0.75);
+
+#main tr.images td {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
+
 #main .images .space {
 	min-width: 20px;
 	background-color: white;
+    height: 340px;
 }
+
 
 /*
  * Footer
  */
 footer{
-	width: 100%;
+	width: 795px;
 	min-height: 100px;
+    margin-left: auto;
+	margin-right: auto;
+    padding-left: 85px;
 }
+footer div{
+    display:inline;
+}
+#footer_about:hover{
+    content: url('Imatges/Botons02.svg');
+    cursor:pointer;
+}
+#about{
+    display:none;
+    color:#FF3A00;
+    padding-left: 12px;
+}
+#footer_about:hover~#about{
+    display:inline-block;
+}
+#footer_mail:hover{
+    content: url('Imatges/Botons04.svg');
+    cursor:pointer;
+}
+#footer_linkedin:hover{
+    content: url('Imatges/Botons08.svg');
+    cursor:pointer;
+}
+#footer_copyright:hover{
+    content: url('Imatges/Botons10.svg');
+    cursor:pointer;
+}
+
+
