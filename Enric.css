@@ -132,32 +132,44 @@ footer{
 	margin-right: auto;
     padding-left: 85px;
 }
-footer div{
-    display:inline;
-}
-#footer_about:hover{
-    content: url('Imatges/Botons02.svg');
+#footer_icons div, #footer_icons a{
+    display:inline-block;
     cursor:pointer;
+    height: 32px;
+    width: 32px;
 }
-#about{
+
+#footer_icons> #footer_about{
+    background-image: url('Imatges/Botons01.svg');
+}
+#footer_icons> #footer_about:hover{
+    background-image: url('Imatges/Botons02.svg');
+}
+div #about{
     display:none;
+}
+#footer_about:hover~#about{
+    display:inline;
     color:#FF3A00;
     padding-left: 12px;
 }
-#footer_about:hover~#about{
-    display:inline-block;
+#footer_icons> #footer_mail{
+    background-image: url('Imatges/Botons03.svg');
 }
-#footer_mail:hover{
-    content: url('Imatges/Botons04.svg');
-    cursor:pointer;
+#footer_icons> #footer_mail:hover{
+    background-image: url('Imatges/Botons04.svg');
 }
-#footer_linkedin:hover{
-    content: url('Imatges/Botons08.svg');
-    cursor:pointer;
+#footer_icons> #footer_linkedin{
+    background-image: url('Imatges/Botons07.svg');
 }
-#footer_copyright:hover{
-    content: url('Imatges/Botons10.svg');
-    cursor:pointer;
+#footer_icons> #footer_linkedin:hover{
+    background-image: url('Imatges/Botons08.svg');
+}
+#footer_icons> #footer_copyright{
+    background-image: url('Imatges/Botons09.svg');
+}
+#footer_icons> #footer_copyright:hover{
+    background-image: url('Imatges/Botons10.svg');
 }
 
 
