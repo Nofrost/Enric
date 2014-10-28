@@ -1,0 +1,235 @@
+/*
+ * General properties
+ */
+html, body {
+	background-color: #4b423d;
+	background-image:url(../Imatges/FonsPunts2.svg);
+	font-family: 'Static';
+	margin: 0px;
+	height: 100%;
+}
+@font-face {
+	font-family: 'Static';
+	src: url('http://www.fontsaddict.com/fontface/static.otf');
+}
+/*
+#guia_layout {
+	background: url(../Imatges/WEB_EM_4-01.jpg) no-repeat top center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: 866px 613px;
+}*/
+.hide {
+	display:none;
+}
+
+
+/*
+ * Header
+ */
+header {
+	background-color: #A69993;
+}
+header #header_wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	/* la suma es 880px */
+	width: 795px;
+	padding-left: 85px;
+/*	height: 154px;*/
+}
+header #logo {
+	width: 100%;
+	height: 78px;
+}
+header #logo a {
+	display: block;
+	height: 78px;
+}
+
+#menuLeft{
+	float: left;
+	width: 335px;
+	line-height: 30px;
+}
+
+#titol{
+	color: white;
+	font-family: 'Cinzel', serif;
+	font-size: 26px;
+}
+#sub1{
+	font-size: 18px;
+	color: #D8D7D3;
+/*	letter-spacing: 3px;*/
+}
+
+#sub2{
+	font-size: 18px;
+	margin-bottom: 49px;
+	color: #615C58;
+	letter-spacing: 3px;
+}
+
+#menuRight{
+	font-size: 20px;
+	float: right;
+	width: 440px;
+	margin-top: 11px;
+/*	letter-spacing: 2px;*/
+	line-height: 33px;
+}
+
+#menuRight span:hover{
+	color:white;
+	cursor:pointer;
+}
+
+
+
+/*
+ * Main
+ */
+#main {
+	background-color: #A69993;
+	height: 490px;
+}
+#main_shadow_top {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	-webkit-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	top: 208px;
+}
+#main_shadow_bottom {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	-webkit-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	top: 538px;
+}
+#wn{
+/*	height: 340px;*/
+	/*-webkit-box-shadow: 0 -8px 6px -6px black;
+	   -moz-box-shadow: 0 -8px 6px -6px black;
+	        box-shadow: 0 -8px 6px -6px black;*/
+	/*-webkit-box-shadow: 0 0px -8px 87px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0px -8px 87px 0px rgba(0,0,0,0.75);
+	box-shadow: 0 0px -8px 87px 0px rgba(0,0,0,0.75);*/
+
+
+}
+/*#main #taula_shadow_up {
+	height: 20px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+#main #taula_shadow_up:before{
+			content: "";
+			position: fixed;
+			top: -10px;
+			left: 0;
+			width: 100%;
+			height: 10px;
+
+			-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+				-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+						box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+			z-index: 100;
+}*/
+
+/*#main tr.images td {*/
+/*#main tr.images img {
+	-webkit-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.75);
+	padding: 11px 30px 11px;
+border-spacing: 0px;
+margin-left: 57px;
+}*/
+
+#main tr.images .space {
+	min-width: 20px;
+	background-color: white;
+	height: 340px;
+}
+#main tr.images img {
+	display: block;
+}
+#main tr.images td:nth-child(odd) {
+	min-width: 200px;
+	background-image: url('../Imatges/ajax-loader.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #FFF;
+}
+
+/*
+ * Footer
+ */
+footer{
+	width: 795px;
+	min-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 85px;
+}
+#footer_icons > div, #footer_icons > div > a{
+	display:inline-block;
+	cursor:pointer;
+	height: 32px;
+	width: 32px;
+}
+
+#footer_icons> #footer_about{
+	background-image: url('../Imatges/Botons01.svg');
+}
+#footer_icons> #footer_about:hover{
+	background-image: url('../Imatges/Botons02.svg');
+}
+#footer_about:hover~#footer_info > #about,
+#footer_about:active~#footer_info > #about {
+	display: inline;
+}
+#footer_mail:hover~#footer_info > #mail,
+#footer_mail:active~#footer_info > #mail {
+	display: inline;
+}
+#footer_linkedin:hover~#footer_info > #linkedin,
+#footer_linkedin:active~#footer_info > #linkedin {
+	display: inline;
+}
+
+#footer_icons> #footer_mail{
+	background-image: url('../Imatges/Botons03.svg');
+}
+#footer_icons> #footer_mail:hover{
+	background-image: url('../Imatges/Botons04.svg');
+}
+#footer_icons> #footer_linkedin{
+	background-image: url('../Imatges/Botons07.svg');
+}
+#footer_icons> #footer_linkedin:hover{
+	background-image: url('../Imatges/Botons08.svg');
+}
+#footer_icons> #footer_copyright{
+	background-image: url('../Imatges/Botons09.svg');
+}
+#footer_icons> #footer_copyright:hover{
+	background-image: url('../Imatges/Botons10.svg');
+}
+#footer_info {
+	color: #FF3A00;
+	padding-left: 12px;
+	width: 100px!important;
+	top: -10px;
+	position: relative;
+}
+

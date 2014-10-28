@@ -1,0 +1,99 @@
+/* NOTE: width and height for div#wn also specified in head of demo */
+div#wn	{
+	position:relative; /* scroll area div must be positioned */
+	width:100%; height:400px; /* width and height required. adjust to suit */
+	overflow:hidden; /* required! */
+
+	/*margin:0 0 20px 0*/
+}
+div#scrollbar {
+	position:relative;
+	/* include following if you don't want scrollbar hidden when insufficient content for scrolling */
+	/* visibility:visible !important; */
+	/*width:896px;*/
+	/*width: 795px;
+	padding-left: 85px;*/
+	width: 100%;
+	height:5px;
+	margin:73px auto 0;
+	font-size:1px; /* or dragBar will overflow track in ie */
+	height: 17px;
+	background-color: black;
+}
+div#scrollbar .btn_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 795px;
+	padding-left: 85px;
+	position: relative;
+	top: -60px;
+}
+div#scrollbar .left {
+	/*position:absolute;
+	left:0; top:0;*/
+	float: left;
+	width:26px; height:26px; /* specify width and height of your image */
+	background-image:url('../Imatges/bt_left.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+div#scrollbar .left:active,
+div#scrollbar .left:hover {
+	background-image:url('../Imatges/bt_left.png');
+}
+div#scrollbar .right {
+	/*position:absolute;
+	right:0; top:0;*/
+	width:26px; height:26px; /* specify width and height of your image */
+	background-image:url('../Imatges/bt_right.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: right;
+}
+div#scrollbar .right:active,
+div#scrollbar .right:hover {
+	background-image:url('../Imatges/bt_right.png');
+}
+div#scrollbar .trackOLD {
+	position:absolute; /* track must be positioned */
+	top:10px;
+	margin: 0 auto;
+	left:56px; /* equal to width of .left image + optional gap */
+	width:784px; /* width of scrollbar minus 2 X image width minus 2 X gap between */
+	height:8px;
+}
+div#scrollbar .track {
+	width:100%;height: 100%;
+}
+div#scrollbar .dragBar {
+	position:absolute; /* dragBar must be positioned */
+	left:0; top:0; /* for small gap between track and dragBar */
+	height:13px;
+	margin-top: 2px;
+	width:20px; /* code auto-sizes */
+	/* width:20px !important;  use !important to prevent code from sizing dragBar according to amount of content */
+/*	background-color:#94948B;*/
+	background: red url(../Imatges/Barra2.svg) no-repeat center center fixed;
+}
+/*div#scrollbar .dragBar #wn_h_dragBar_left {
+	height: 100%;width: 70px;display: inline-block;
+	background:  url(../Imatges/Barra1.svg);
+}
+div#scrollbar .dragBar #wn_h_dragBar_center {
+	height: 100%;width: auto;display: inline-block;
+	background:  url(../Imatges/Barra2.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+div#scrollbar .dragBar #wn_h_dragBar_right {
+	height: 100%;width: 70px;display: inline-block;
+	background:  url(../Imatges/Barra3.svg);
+}*/
+
+/* for clutzy draggers */
+div#scrollbar {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}

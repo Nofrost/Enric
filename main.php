@@ -15,14 +15,6 @@ foreach ($text_array as $text_content) {
 		$text[$file] = $desc;
 	}
 }
-?>
-<div id="main">
-	<div id="wn"> <!-- scroll area div -->
-		<div id="lyr1"> <!-- layer in scroll area (content div) -->
-			<table id="taula_ordre" border="0" cellpadding="0" cellspacing="0">
-				<tr class="images">
-<?php
-//var_dump($text);
 $fotos = array();
 foreach (new DirectoryIterator($folder) as $fileInfo) {
 	if($fileInfo->isDot()) continue;
@@ -35,7 +27,16 @@ foreach (new DirectoryIterator($folder) as $fileInfo) {
 usort($fotos, function($a, $b) {
 	return strnatcmp($a['pathname'], $b['pathname']);
 });
-
+?>
+<div id="main">
+	<div id="main_shadow_top"></div>
+	<div id="main_shadow_bottom"></div>
+	<div id="wn"> <!-- scroll area div -->
+		<div id="lyr1"> <!-- layer in scroll area (content div) -->
+			<table id="taula_ordre" border="0" cellpadding="0" cellspacing="0">
+				<tr class="images">
+<?php
+$last_foto = end($fotos);
 foreach($fotos as $foto) {
 	//var_dump($foto)."\n";
 	if(empty($foto['description'])){
@@ -44,7 +45,9 @@ foreach($fotos as $foto) {
 		$attr_alt = 'alt="'.$foto['description'].'"';
 	}
 	echo '<td><img src="'.$foto['pathname'].'" '.$attr_alt.' /></td>';
-	echo '<td class="space"></td>';
+	if($foto !== $last_foto) {
+		echo '<td class="space"></td>';
+	}
 }
 ?>
 				</tr>
@@ -60,10 +63,5 @@ foreach($fotos as $foto) {
 		</div>
 	</div><!-- end wn div -->
 
-	<div id="scrollbar" style="visibility: visible;">
-		<div id="wn_h_left" class="left"></div>
-		<div id="wn_h_track" class="track" tabindex="0"></div>
-		<div id="wn_h_right" class="right"></div>
-	</div>
-	<div id="scrollbar_b"></div>
+	<div id="scrollbar"></div>
 </div>
