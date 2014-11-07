@@ -3,7 +3,8 @@
  */
 html, body {
 	background-color: #4b423d;
-	background-image:url(../Imatges/FonsPunts2.svg);
+	background-image:url(../Imatges/FonsPunts3B.svg);
+    background-repeat: space;
 	font-family: 'Static';
 	margin: 0px;
 	height: 100%;
@@ -205,6 +206,11 @@ footer{
 #footer_linkedin:hover~#footer_info > #linkedin,
 #footer_linkedin:active~#footer_info > #linkedin {
 	display: inline;
+}
+#footer_copyright:hover~#footer_info > #copyright,
+#footer_copyright:active~#footer_info > #copyright {
+	display: inline;
+    width: 800px;
 }
 
 #footer_icons> #footer_mail{

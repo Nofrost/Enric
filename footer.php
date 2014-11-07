@@ -13,6 +13,7 @@
 			<div id="about" class="hide">ABOUT & INFO</div>
 			<div id="mail" class="hide">MAIL</div>
 			<div id="linkedin" class="hide">LINKEDIN</div>
+            <div id="copyright" class="hide">Copyright &copy; 2014 All Rights Reserved. Design: Enric Mu&ntilde;oz. Web Developer: Dan-Marc Ramos, Arnau-Lenin Gols</div>
 		</div>
 	</div>
 </footer>
