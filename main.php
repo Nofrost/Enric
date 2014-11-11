@@ -30,7 +30,6 @@ usort($fotos, function($a, $b) {
 ?>
 <div id="main">
 	<div id="main_shadow_top"></div>
-	<div id="main_shadow_bottom"></div>
 	<div id="wn"> <!-- scroll area div -->
 		<div id="lyr1"> <!-- layer in scroll area (content div) -->
 			<table id="taula_ordre" border="0" cellpadding="0" cellspacing="0">
