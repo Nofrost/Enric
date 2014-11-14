@@ -172,7 +172,7 @@ margin-left: 57px;
 #main tr.images img {
 	display: block;
 }
-#main tr.images td:nth-child(odd) {
+#main tr.images td:nth-child(even) {
 	min-width: 200px;
 	background-image: url('../Imatges/ajax-loader.gif');
 	background-repeat: no-repeat;

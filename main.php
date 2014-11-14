@@ -34,6 +34,7 @@ usort($fotos, function($a, $b) {
 		<div id="lyr1"> <!-- layer in scroll area (content div) -->
 			<table id="taula_ordre" border="0" cellpadding="0" cellspacing="0">
 				<tr class="images">
+					<td class="space"></td>
 <?php
 $last_foto = end($fotos);
 foreach($fotos as $foto) {
@@ -49,14 +50,17 @@ foreach($fotos as $foto) {
 	}
 }
 ?>
+					<td class="space"></td>
 				</tr>
 				<tr class="descriptions">
+					<td></td>
 <?php
 foreach($fotos as $foto) {
 	echo '<td><p>'.$foto['description'].'</p></td>';
 	echo '<td></td>';
 }
 ?>
+					<td></td>
 				</tr>
 			</table>
 		</div>
