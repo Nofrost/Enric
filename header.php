@@ -8,7 +8,7 @@
 
 		<div id="menu">
 			<p id="menuLeft">
-				<span id="titol">ENRIC MU&#209OZ</span><br />
+				<span id="titol">ENRIC MU&#209;OZ</span><br />
 				<span id="sub1">HOT DESIGN / EMOTIONAL COMMUNICATION</span><br />
 				<span id="sub2">by KILOGRAFIK</span>
 			</p>

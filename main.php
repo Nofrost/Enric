@@ -8,25 +8,45 @@ if(false === $text_content) {
 }
 $text_array = explode(PHP_EOL, $text_content);
 $text = array();
-foreach ($text_array as $text_content) {
-	$file = strstr($text_content,' ',true);
-	$desc = substr(strstr($text_content,' '),1);
-	if(!empty($file) && !empty($desc)) {
-		$text[$file] = $desc;
+foreach ($text_array as $key => $text_content) {
+	if(empty($text_content))
+		continue;
+	if(strpos($text_content,' ') === FALSE) {
+		$text[$text_content] = array(
+			'desc'=>'',
+			'position'=> ($key+1) //No volem que comenci amb 0
+		);
+	} else {
+		$file = strstr($text_content,' ',true);
+		$desc = substr(strstr($text_content,' '),1);
+		if(!empty($file)) {
+			$text[$file] = array(
+				'desc'=>$desc,
+				'position'=> ($key+1) //No volem que comenci amb 0
+			);
+		}
 	}
 }
+
 $fotos = array();
 foreach (new DirectoryIterator($folder) as $fileInfo) {
 	if($fileInfo->isDot()) continue;
 	if($fileInfo->getExtension() != 'jpg') continue;
-	$fotos[] = array(
-		'pathname' => $fileInfo->getPathname(),
-		'description' => (array_key_exists($fileInfo->getFilename(), $text) ? $text[$fileInfo->getFilename()] : '' )
+	$foto = array(
+		'pathname' => $fileInfo->getPathname()
 	);
+	if(array_key_exists($fileInfo->getFilename(), $text)) {
+		$foto['description'] = $text[$fileInfo->getFilename()]['desc'];
+		$foto['position'] = $text[$fileInfo->getFilename()]['position'];
+	} else {
+		$foto['description'] = ''; $foto['position'] = 999;
+	}
+	$fotos[] = $foto;
 }
 usort($fotos, function($a, $b) {
-	return strnatcmp($a['pathname'], $b['pathname']);
+	return strnatcmp($a['position'], $b['position']);
 });
+
 ?>
 <div id="main">
 	<div id="main_shadow_top"></div>
@@ -57,7 +77,9 @@ foreach($fotos as $foto) {
 <?php
 foreach($fotos as $foto) {
 	echo '<td><p>'.$foto['description'].'</p></td>';
-	echo '<td></td>';
+	if($foto !== $last_foto) {
+		echo '<td></td>';
+	}
 }
 ?>
 					<td></td>
@@ -68,3 +90,4 @@ foreach($fotos as $foto) {
 
 	<div id="scrollbar"></div>
 </div>
+<div style="clear: both"></div>

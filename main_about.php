@@ -6,17 +6,18 @@
 			<div id="idiomes">
 				<div id="catala">CATAL&#192;</div>
 				<div id="espanol">ESPA&#209;OL</div>
-				<div>ENGLISH</div>
-				<div>FRAN&#199;AIS</div>
+				<div id="english">ENGLISH</div>
+				<!--<div id="frenchute">FRAN&#199;AIS</div>-->
 			</div>
+			<div id="content_catala">
 				<?php include "catala.php"; ?>
-
-
-
-
-
+			</div>
+			<div id="content_espanol" class="hide">
+				<?php include "espanol.php"; ?>
+			</div>
+			<div id="content_english" class="hide">
+				<?php include "english.php"; ?>
+			</div>
 		</div>
 	</div>
-</div>
-
 </div>

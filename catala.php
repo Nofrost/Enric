@@ -15,7 +15,7 @@
 
 	<p>FORMACi&#211;:
 	Estudis relacionats amb les Arts pl&#224;stiques, el Disseny gr&#224;fic, la Semiologia, la Fotografia, el Cinema, el V&#237;deo, la Creativitat,... i tamb&#233; amb temes extraprofessionals com l&#39;Art, la M&#250;sica, la Historia, la Natura, l&#39;Horticultura, la Gastronomia, etc...</p>
-	</div>
+</div>
 <div class="personal">
 	Badia 16, pral 1a.<br>
 	08012 Barcelona, Espanya.<br>

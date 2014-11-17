@@ -3,14 +3,14 @@
  */
 html, body {
 	background-color: #4b423d;
-	background-image:url(../Imatges/FonsPunts3B.svg);
+	background-image: url(../Imatges/FonsPunts3B.svg);
 	background-repeat: space;
 	font-family: 'Static';
 	margin: 0px;
 	height: 100%;
 }
 .hide {
-	display:none;
+	display: none;
 }
 
 
@@ -289,7 +289,6 @@ footer{
 #footer_icons{
 	float:left;
 	width: 904px;
-	margin-top:-18px;
 }
 #footer_icons > div, #footer_icons > div > a{
 	display:inline-block;
@@ -298,46 +297,32 @@ footer{
 	width: 32px;
 }
 
-#footer_icons> #footer_about{
+#footer_icons > #footer_about{
 	background-image: url('../Imatges/Botons01.svg');
 }
-#footer_icons> #footer_about:hover{
+#footer_icons > #footer_about:hover,
+#footer_icons > #footer_about.active {
 	background-image: url('../Imatges/Botons02.svg');
 }
-#footer_about:hover~#footer_info > #about,
-#footer_about:active~#footer_info > #about {
-	display: inline-block;
-}
-#footer_mail:hover~#footer_info > #mail,
-#footer_mail:active~#footer_info > #mail {
-	display: inline-block;
-}
-#footer_linkedin:hover~#footer_info > #linkedin,
-#footer_linkedin:active~#footer_info > #linkedin {
-	display: inline-block;
-}
-#footer_copyright:hover~#footer_info > #copyright,
-#footer_copyright:active~#footer_info > #copyright {
-	display: inline-block;
-
-}
-
-#footer_icons> #footer_mail{
+#footer_icons > #footer_mail{
 	background-image: url('../Imatges/Botons03.svg');
 }
-#footer_icons> #footer_mail:hover{
+#footer_icons > #footer_mail:hover,
+#footer_icons > #footer_mail.active {
 	background-image: url('../Imatges/Botons04.svg');
 }
-#footer_icons> #footer_linkedin{
+#footer_icons > #footer_linkedin{
 	background-image: url('../Imatges/Botons07.svg');
 }
-#footer_icons> #footer_linkedin:hover{
+#footer_icons > #footer_linkedin:hover,
+#footer_icons > #footer_linkedin.active {
 	background-image: url('../Imatges/Botons08.svg');
 }
-#footer_icons> #footer_copyright{
+#footer_icons > #footer_copyright{
 	background-image: url('../Imatges/Botons09.svg');
 }
-#footer_icons> #footer_copyright:hover{
+#footer_icons > #footer_copyright:hover,
+#footer_icons > #footer_copyright.active {
 	background-image: url('../Imatges/Botons10.svg');
 }
 
@@ -348,7 +333,3 @@ footer{
 	top: -10px;
 	width:800px;
 }
-#footer_about:active {
-	display: inline-block;
-}
-

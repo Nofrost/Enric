@@ -72,11 +72,64 @@ window._preloadImage = function(url) {
 	return preloadImage(imgs);
 }*/
 
+//dw_scroll
+window.id_scroll = 'lyr1';
+function init_dw_Scroll() {
+	// arguments: id of scroll area div, id of content div
+	window.dw_scrollObjInstance = new dw_scrollObj('wn', window.id_scroll);
+	// args: id, axis ('v' or 'h'), eType (event type for arrows),
+	// bScrollbar (include track and dragBar? true or false)
+	dw_scrollObjInstance.buildScrollControls('scrollbar', 'h', 'mouseover', true);
+
+	//Lenin: Windows resize & init scroll
+	dw_Event.add( window, 'resize', function(){ window.dw_scrollObjInstance.updateDims(); } );
+	window.dw_scrollObjInstance.initScrollVals(0);
+}
 
 //MAIN
 $(document).ready(function() {
-/*	window.routing = new window.Routing();
-	//window.views = new window.Views();
+	//Carrousel: if code supported, link in the style sheet (optional) and call the init function onload
+	if ( $("#"+window.id_scroll).length && typeof dw_scrollObj != 'undefined' && dw_scrollObj.isSupported() ) {
+//		dw_Util.writeStyleSheet('css/scrollbar_h.css'); //Petoncio
+		dw_Event.add( window, 'load', init_dw_Scroll);
+	}
+
+	//About page translations
+	$("#idiomes > #catala").click(function() {
+		$("#content_espanol,#content_english").addClass("hide");
+		$("#content_catala").removeClass("hide");
+	});
+	$("#idiomes > #espanol").click(function() {
+		$("#content_catala,#content_english").addClass("hide");
+		$("#content_espanol").removeClass("hide");
+	});
+	$("#idiomes > #english").click(function() {
+		$("#content_catala,#content_espanol").addClass("hide");
+		$("#content_english").removeClass("hide");
+	});
+
+	//Footer
+	$("#footer_icons").children(':not(#footer_info)').hover(
+		//In hover
+		function() {
+			var $childrens = $("#footer_icons #footer_info").children();
+			$childrens.addClass('hide');
+			var actual_position = $(this).attr('id').substr(7);
+			$childrens.filter("#"+actual_position).removeClass('hide');
+		},
+		//Out hover
+		function() {
+			$("#footer_icons #footer_info").children().addClass('hide');
+			if($("#footer_icons #footer_about").hasClass('active')) {
+				$("#footer_icons #footer_info #about").removeClass('hide');
+			}
+
+		}
+	);
+
+/*	Code from bookandlook
+	window.routing = new window.Routing();
+//	window.views = new window.Views();
 	window.buttonsView = new window.ButtonsView();
 	window.logosView = new window.LogosView();
 
@@ -85,23 +138,6 @@ $(document).ready(function() {
 	Backbone.history.start(); //{pushState: true}*/
 
 });
-
-//dw_scroll
-function init_dw_Scroll() {
-	// arguments: id of scroll area div, id of content div
-	window.dw_scrollObjInstance = new dw_scrollObj('wn', 'lyr1');
-	// args: id, axis ('v' or 'h'), eType (event type for arrows),
-	// bScrollbar (include track and dragBar? true or false)
-	dw_scrollObjInstance.buildScrollControls('scrollbar', 'h', 'mouseover', true);
-
-	//Lenin: Windows resize
-	dw_Event.add( window, 'resize', function(){ window.dw_scrollObjInstance.updateDims(); } );
-}
-// if code supported, link in the style sheet (optional) and call the init function onload
-if ( typeof dw_scrollObj != 'undefined' && dw_scrollObj.isSupported() ) {
-	dw_Util.writeStyleSheet('css/scrollbar_h.css');
-	dw_Event.add( window, 'load', init_dw_Scroll);
-}
 
 /**
  * Google Analytics
