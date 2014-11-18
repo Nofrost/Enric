@@ -7,18 +7,17 @@
 		</div>
 
 		<div id="menu">
-			<p id="menuLeft">
+			<div id="menuLeft">
 				<span id="titol">ENRIC MU&#209;OZ</span><br />
 				<span id="sub1">HOT DESIGN / EMOTIONAL COMMUNICATION</span><br />
 				<span id="sub2">by KILOGRAFIK</span>
-			</p>
+			</div>
 
-			<p id="menuRight">
-				<span>EDITORIAL DESIGN</span> / <span>IDENTITY</span> / <span>PROMOTION & PUB</span> /<br />
-				<span>EVENTS & SCREEN</span> / <span>ILLUSTRATION & PHOTO WORKS</span> /<br />
+			<div id="menuRight">
+				<span>EDITORIAL DESIGN</span> / <span>IDENTITY</span> / <span>PROMOTION & PUB</span> /<br/>
+				<span>EVENTS & SCREEN</span> / <span>ILLUSTRATION & PHOTO WORKS</span> /<br/>
 				<span>INTRO & VIEW MIX</span> /
-			</p>
-			<div style="clear: both;"></div>
+			</div>
 		</div>
 	</div>
 </header>

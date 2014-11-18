@@ -13,7 +13,7 @@
 
 	<p>Ha participat com a jurat,<br> en diferents concursos.</p>
 
-	<span>FORMACi&#211;:</span><br>
+	<span>FORMACI&#211;:</span><br>
 	<p>Estudis relacionats amb les Arts pl&#224;stiques,<br> el Disseny gr&#224;fic, la Semiologia, la Fotografia,<br> el Cinema, el V&#237;deo, la Creativitat,... i tamb&#233; amb<br>temes extraprofessionals com l&#39;Art, la M&#250;sica,<br>la Historia, la Natura, l&#39;Horticultura,<br>la Gastronomia, etc...</p>
 </div>
 <div class="personal">

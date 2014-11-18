@@ -13,7 +13,7 @@
 
 	<p>Ha participado como ha jurado,<br> en varios concursos de dise&#241;o.</p>
 
-	<span>FORMACi&#211;:</span><br>
+	<span>FORMACI&#211;:</span><br>
 	<p>Estudios relacionados con las Artes pl&#225;sticas, el Dise&#241;o gr&#225;fico, la Semiolog&#237;a, la Fotograf&#237;a, el Cine, el V&#237;deo, la Creatividad,... y tambi&#233;n con temas extraprofesionales como el Arte, la M&#250;sica, la Historia, la Naturaleza, la Horticultura, la Gastronom&#237;a, etc....</p>
 </div>
 <div class="personal">

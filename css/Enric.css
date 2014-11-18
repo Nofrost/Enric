@@ -55,27 +55,37 @@ html, body {
  * Header
  */
 header {
-	background-color: #A69993;
+	background-image: url(../Imatges/LiniadeFonsDalt.jpg);
 }
 header #header_wrapper {
 	margin-left: auto;
 	margin-right: auto;
 	width: 904px;
+	height: 180px;
 	padding-left: 60px;
 	padding-right:60px;
 }
 header #logo {
 	width: 100%;
-	height: 78px;
+	margin-bottom: 20px;
 }
 header #logo a {
 	display: block;
-	height: 78px;
+	height: 54px;
+	widht: 54px;
+}
+#menu{
+	width: 904px;
+	height: 106px;
+}
+#menu div{
+	display:inline-block;
 }
 #menuLeft{
-	float: left;
 	width: 335px;
 	line-height: 30px;
+	margin-top: 0px;
+	float:left;
 }
 #titol{
 	color: white;
@@ -97,8 +107,8 @@ header #logo a {
 	font-size: 20px;
 	float: right;
 	width: 440px;
-	margin-top: 11px;
 	line-height: 33px;
+	margin-top: -5px;
 }
 #menuRight span:hover{
 	color:white;
@@ -111,12 +121,10 @@ header #logo a {
  * Main
  */
 #main {
-	background-color: #A69993;
-	height: 477px;
+	background-image: url(../Imatges/LiniadeFonsBaix.jpg);
+	height: 460px;
 }
-#main_shadow_top {
 
-}
 /*#main_shadow_bottom {
 	width: 100%;
 	height: 30px;
@@ -219,10 +227,7 @@ div #idiomes{
 	font-size: 12px;
 	color: #E95C18;
 }
-#idiomes div:hover, #idiomes>#catala.active{
-	color: #000000;
-}
-.active{
+#idiomes div:hover, #idiomes>#catala.active, .active{
 	color: #000000;
 }
 .career{
