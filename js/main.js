@@ -96,16 +96,28 @@ $(document).ready(function() {
 
 	//About page translations
 	$("#idiomes > #catala").click(function() {
-		$("#content_espanol,#content_english").addClass("hide");
+		$("#content_espanol,#content_english,#content_french").addClass("hide");
 		$("#content_catala").removeClass("hide");
+		$("#catala").addClass("active");
+		$("#espanol,#french,#english").removeClass("active");
 	});
 	$("#idiomes > #espanol").click(function() {
-		$("#content_catala,#content_english").addClass("hide");
+		$("#content_catala,#content_english,#content_french").addClass("hide");
 		$("#content_espanol").removeClass("hide");
+		$("#espanol").addClass("active");
+		$("#catala,#french,#english").removeClass("active");
 	});
 	$("#idiomes > #english").click(function() {
-		$("#content_catala,#content_espanol").addClass("hide");
+		$("#content_catala,#content_espanol,#content_french").addClass("hide");
 		$("#content_english").removeClass("hide");
+		$("#english").addClass("active");
+		$("#espanol,#french,#catala").removeClass("active");
+	});
+	$("#idiomes > #french").click(function() {
+		$("#content_catala,#content_espanol,#content_english").addClass("hide");
+		$("#content_french").removeClass("hide");
+		$("#french").addClass("active");
+		$("#espanol,#english,#catala").removeClass("active");
 	});
 
 	//Footer

@@ -7,7 +7,6 @@
 <meta name="author" content="Enric Muñoz">
 
 <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
-<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
 <link type="text/css" rel="stylesheet" href="css/scrollbar_h.css"/>
 <link type="text/css" rel="stylesheet" href="css/Enric.css"/>
 

@@ -4,10 +4,10 @@
 	<div id="main_about">
 		<div id="about_wrap">
 			<div id="idiomes">
-				<div id="catala">CATAL&#192;</div>
+				<div id="catala"<?php if($page == 'about') echo 'class="active"'; ?>>CATAL&#192;</div>
 				<div id="espanol">ESPA&#209;OL</div>
 				<div id="english">ENGLISH</div>
-				<!--<div id="frenchute">FRAN&#199;AIS</div>-->
+				<div id="french">FRAN&#199;AIS</div>
 			</div>
 			<div id="content_catala">
 				<?php include "catala.php"; ?>
@@ -18,6 +18,10 @@
 			<div id="content_english" class="hide">
 				<?php include "english.php"; ?>
 			</div>
+			<div id="content_french" class="hide">
+				<?php include "french.php"; ?>
+			</div>
+
 		</div>
 	</div>
 </div>

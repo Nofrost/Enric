@@ -2,7 +2,7 @@
 
 
 <div class="career">
-	<span>TRAYECTORIA PROFESIONAL:</span><br>
+	<span>frenchTRAYECTORIA PROFESIONAL:</span><br>
 	<p>Ha trabajado como <span>Dise&#241;ador gr&#225;fico</span> en<br> TV3 Televisi&#243; de Catalunya y en diversos estudios<br> de Barcelona;  y como <span>Director de arte</span>, en la agencia de publicidad Eje i Munta&#241;ola Comunicaci&#243;, durante 14 a&#241;os.<br>
 	<span>Desde el 2000</span> desarrolla su actividad profesional<br> como freelance, colaborando tanto con la administraci&#243;n p&#250;blica, como con empresas privadas.<br></p>
 
@@ -13,7 +13,7 @@
 
 	<p>Ha participado como ha jurado,<br> en varios concursos de dise&#241;o.</p>
 
-	<span>FORMACi&#211;N:</span><br>
+	<span>FORMACi&#211;:</span><br>
 	<p>Estudios relacionados con las Artes pl&#225;sticas, el Dise&#241;o gr&#225;fico, la Semiolog&#237;a, la Fotograf&#237;a, el Cine, el V&#237;deo, la Creatividad,... y tambi&#233;n con temas extraprofesionales como el Arte, la M&#250;sica, la Historia, la Naturaleza, la Horticultura, la Gastronom&#237;a, etc....</p>
 </div>
 <div class="personal">
