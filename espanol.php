@@ -27,6 +27,6 @@
 		<a href="mailto:enric@kilografik.com" id="btn_mail"></a>
 	</div>
 	<span>DESCARGAS:</span><br>
-	Portafolios (PDF_ DinA4) Catal&#225;n<br>
+	Portafolios (PDF_ DinA4) Esp<br>
 	<div id="portafolios"></div>
 </div>

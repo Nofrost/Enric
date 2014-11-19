@@ -3,7 +3,7 @@
  */
 html, body {
 	background-color: #4b423d;
-	background-image: url(../Imatges/FonsPunts3B.svg);
+	background-image: url(../Imatges/FonsPunts4.svg);
 	background-repeat: space;
 	font-family: 'Static';
 	margin: 0px;
@@ -30,6 +30,11 @@ html, body {
 	font-family: 'InterstateLightCondensed';
 	src: url('../Fonts/Interstate-LightCondensed.ttf');
 }
+@font-face {
+	font-family: 'Interstate-BoldCondensed';
+	src: url('../Fonts/Interstate-BoldCondensed.ttf');
+}
+
 @font-face {
 	font-family: 'InterstateLight';
 	src: url('../Fonts/Interstate-Light.ttf');
@@ -83,7 +88,8 @@ header #logo a {
 }
 #menuLeft{
 	width: 335px;
-	line-height: 30px;
+	/*line-height: 30px;*/
+	line-height: 24px;
 	margin-top: 0px;
 	float:left;
 }
@@ -94,7 +100,8 @@ header #logo a {
 }
 #sub1{
 	font-size: 18px;
-	color: #D8D7D3;
+	color: #CAC9C5;
+	/*color: #D8D7D3;*/
 /*	letter-spacing: 3px;*/
 }
 #sub2{
@@ -107,13 +114,23 @@ header #logo a {
 	font-size: 20px;
 	float: right;
 	width: 440px;
-	line-height: 33px;
+	line-height: 25px;
+	/* line-height: 33px;*/
 	margin-top: -5px;
 }
+#menuRight > span > a{
+	text-decoration:none;
+	color:inherit;
+}
+
 #menuRight span:hover{
-	color:white;
+	color:#ffffff;
 	cursor:pointer;
 }
+.activeMenu{
+	color:#ffffff;
+}
+
 
 
 
@@ -176,7 +193,9 @@ border-spacing: 0px;
 margin-left: 57px;
 }*/
 #main tr{
-	vertical-align: middle;
+	vertical-align: top;
+	color: #76716D;
+	font-size: 12px;
 }
 #main tr.images .space {
 	min-width: 20px;
@@ -237,7 +256,7 @@ div #idiomes{
 	font-size: 15px;
 }
 #about_wrap span{
-	font-family: 'Interstate-Bold';
+	font-family: 'Interstate-BoldCondensed';
 }
 .career p{
 	margin-top: 0;
@@ -342,4 +361,5 @@ footer{
 	position: relative;
 	top: -10px;
 	width:800px;
+	font-size: 12px;
 }

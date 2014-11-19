@@ -93,6 +93,36 @@ $(document).ready(function() {
 //		dw_Util.writeStyleSheet('css/scrollbar_h.css'); //Petoncio
 		dw_Event.add( window, 'load', init_dw_Scroll);
 	}
+//Menu active
+	$("#menuRight > #editorial").click(function() {
+		$("#editorial").addClass("activeMenu");
+		$("#identity,#promotion,#events,#illustration,#intro").removeClass("activeMenu");
+	});
+
+	$("#menuRight > #identity").click(function() {
+		$("#identity").addClass("activeMenu");
+		$("#editorial,#promotion,#events,#illustration,#intro").removeClass("activeMenu");
+	});
+
+	$("#menuRight > #promotion").click(function() {
+		$("#promotion").addClass("activeMenu");
+		$("#identity,#editorial,#events,#illustration,#intro").removeClass("activeMenu");
+	});
+
+	$("#menuRight > #events").click(function() {
+		$("#events").addClass("activeMenu");
+	$("#identity,#promotion,#editorial,#illustration,#intro").removeClass("activeMenu");
+	});
+	$("#menuRight > #illustration").click(function() {
+		$("#illustration").addClass("activeMenu");
+		$("#identity,#promotion,#events,#editorial,#intro").removeClass("activeMenu");
+	});
+	$("#menuRight > #intro > a").click(function() {
+		$("#intro > a").addClass("activeMenu");
+		$("#identity,#promotion,#events,#illustration,#editorial").removeClass("activeMenu");
+	});
+
+
 
 	//About page translations
 	$("#idiomes > #catala").click(function() {

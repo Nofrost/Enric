@@ -6,3 +6,5 @@
 	Botons scroll
 	Pastilla scroll(degradat vermell taronja vermell)
 	About (Paddings, fonts...)
+	De la llista anterior:
+

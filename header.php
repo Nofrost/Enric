@@ -14,9 +14,12 @@
 			</div>
 
 			<div id="menuRight">
-				<span>EDITORIAL DESIGN</span> / <span>IDENTITY</span> / <span>PROMOTION & PUB</span> /<br/>
-				<span>EVENTS & SCREEN</span> / <span>ILLUSTRATION & PHOTO WORKS</span> /<br/>
-				<span>INTRO & VIEW MIX</span> /
+				<span id="editorial" <?php if($page == 'editorial') echo 'class="activeMenu"';?>><a href="index.php" >EDITORIAL DESIGN</a></span> /
+				<span id="identity"<?php if($page == 'identity') echo 'class="activeMenu"';?>><a href="index.php" >IDENTITY</a></span> /
+				<span id="promotion" <?php if($page == 'promotion') echo 'class="activeMenu"';?>><a href="index.php" >PROMOTION & PUB</a></span> /<br/>
+				<span id="events" <?php if($page == 'events') echo 'class="activeMenu"';?>><a href="index.php" >EVENTS, SCREEN & PACK </a></span> /
+				<span id="illustration" <?php if($page == 'illustration') echo 'class="activeMenu"';?>><a href="index.php" >ILLUSTRATION & PHOTO</a></span> /<br/>
+				<span id="intro" <?php if($page == 'index') echo 'class="activeMenu"';?>><a href="index.php" >INTRO & VIEW MIX</a></span> /
 			</div>
 		</div>
 	</div>

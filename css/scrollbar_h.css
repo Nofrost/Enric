@@ -33,30 +33,30 @@ div#scrollbar .left {
 	left:0; top:0;*/
 	float: left;
 	width:34px; height:34px; /* specify width and height of your image */
-	background-image:url('../Imatges/BotonsFletxes2.svg');
+	background-image:url('../Imatges/BotonsFletxes1-02.svg');
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
 div#scrollbar .left:active{
-	background-image:url('../Imatges/BotonsFletxes3.svg');
+	background-image:url('../Imatges/BotonsFletxes1-03.svg');
 }
 div#scrollbar .left:hover {
-	background-image:url('../Imatges/BotonsFletxes1.svg');
+	background-image:url('../Imatges/BotonsFletxes1-01.svg');
 }
 div#scrollbar .right {
 	/*position:absolute;
 	right:0; top:0;*/
 	width:34px; height:34px; /* specify width and height of your image */
-	background-image:url('../Imatges/BotonsFletxes5.svg');
+	background-image:url('../Imatges/BotonsFletxes6-02.svg');
 	background-repeat: no-repeat;
 	cursor: pointer;
 	float: right;
 }
 div#scrollbar .right:active{
-	background-image:url('../Imatges/BotonsFletxes6.svg');
+	background-image:url('../Imatges/BotonsFletxes6-03.svg');
 }
 div#scrollbar .right:hover {
-	background-image:url('../Imatges/BotonsFletxes4.svg');
+	background-image:url('../Imatges/BotonsFletxes6-01.svg');
 }
 div#scrollbar .trackOLD {
 	position:absolute; /* track must be positioned */
@@ -72,12 +72,12 @@ div#scrollbar .track {
 div#scrollbar .dragBar {
 	position:absolute; /* dragBar must be positioned */
 	left:0; top:0; /* for small gap between track and dragBar */
-	height:13px;
-	margin-top: 2px;
+	height:6px;
+	margin-top: 5px;
 	width:20px; /* code auto-sizes */
 	/* width:20px !important;  use !important to prevent code from sizing dragBar according to amount of content */
 /*	background-color:#94948B;*/
-	background: red url(../Imatges/Barra2.svg) no-repeat center center fixed;
+	background: #E95C18 url(../Imatges/Barra2.svg) no-repeat center center fixed;
 }
 /*div#scrollbar .dragBar #wn_h_dragBar_left {
 	height: 100%;width: 70px;display: inline-block;
