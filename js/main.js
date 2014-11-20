@@ -1,5 +1,5 @@
 //Utils
-window.log = function(msg) {
+/*window.log = function(msg) {
 	if( typeof console == 'object' && _.isFunction(console.log)) {
 		console.log(msg);
 	}
@@ -8,23 +8,25 @@ window.err = function(msg) {
 	if( typeof console == 'object' && _.isFunction(console.error)) {
 		console.error(msg);
 	}
-};
+};*/
 //Param can be an array, object or string
 window.preloadImage = function(param) {
 	switch(typeof param) {
 		case 'string':
 			window._preloadImage(param);break;
 		case 'object':
-			_.each(param, window._preloadImage);break;
+			$.each(param, function(k,v) {window._preloadImage(v);});break;
 		default:
 			log(this+': preloadImage error, typeof '+(typeof param)+' not allowed');
 	}
 };
 window._preloadImage = function(url) {
-	if(_.isString(url)) {
+	if(typeof url == "string") {
 		var img = new Image();
 		img.src = url;
-	} else log(this+': _preloadImage error, typeof '+(typeof url)+' is not a string');
+	} else {
+		console.log(this+': _preloadImage error, typeof '+(typeof url)+' is not a string');
+	}
 };
 
 //Routing
@@ -55,22 +57,19 @@ window._preloadImage = function(url) {
 });*/
 
 //Prevent Lazy-Load images
-/*window.loadImages = function() {
-	//scroll
-	var imgs = ['images/BOTO_scrolla3.png','images/BOTO_scrollb3.png'];
-	//lang es
-	imgs = imgs.concat(['images/BOTO_esp1.png','images/BOTO_esp2.png','images/BOTO_esp3.png']);
-	//lang en
-	imgs = imgs.concat(['images/BOTO_eng1.png','images/BOTO_eng2.png','images/BOTO_eng3.png']);
-	//lang ca
-	imgs = imgs.concat(['images/BOTO_cat1.png','images/BOTO_cat2.png','images/BOTO_cat3.png']);
-	//info
-	imgs = imgs.concat(['images/BOTO_info1.png','images/BOTO_info2.png','images/BOTO_info3.png']);
-	//mail
-	imgs = imgs.concat(['images/BOTO_mail1.3.png','images/BOTO_mail2.png','images/BOTO_mail3.png']);
+window.loadImages = function() {
+	//Personal
+	var imgs = ['Imatges/Boto1_about1.svg','Imatges/Boto1_about2.svg','Imatges/Boto1_about3.svg'];
+	imgs = imgs.concat(['Imatges/Boto2_about1.svg','Imatges/Boto2_about2.svg','Imatges/Boto2_about3.svg']);
+	//Loader
+	imgs = imgs.concat(['Imatges/ajax-loader.gif']);
+	//Footer
+	imgs = imgs.concat(['Imatges/Botons01.svg','Imatges/Botons02.svg','Imatges/Botons03.svg']);
+	imgs = imgs.concat(['Imatges/Botons04.svg','Imatges/Botons07.svg','Imatges/Botons08.svg']);
+	imgs = imgs.concat(['Imatges/Botons09.svg','Imatges/Botons10.svg']);
 
 	return preloadImage(imgs);
-}*/
+}
 
 //dw_scroll
 window.id_scroll = 'lyr1';
@@ -169,13 +168,13 @@ $(document).ready(function() {
 		}
 	);
 
+	loadImages();
+
 /*	Code from bookandlook
 	window.routing = new window.Routing();
 //	window.views = new window.Views();
 	window.buttonsView = new window.ButtonsView();
 	window.logosView = new window.LogosView();
-
-	loadImages();
 
 	Backbone.history.start(); //{pushState: true}*/
 
