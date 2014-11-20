@@ -1,5 +1,5 @@
 <?php
-	$page = 'Illustration';
-	$page_title = 'Enric_Mu&#241;oz: Illustration';
+	$page = 'illustration';
+	$page_title = 'Enric_Mu&#241;oz: illustration';
 	include 'skeleton.php';
 ?>

@@ -2,23 +2,27 @@
 
 
 <div class="career">
-	<span>frenchTRAYECTORIA PROFESIONAL:</span><br>
-	<p>Ha trabajado como <span>Dise&#241;ador gr&#225;fico</span> en<br> TV3 Televisi&#243; de Catalunya y en diversos estudios<br> de Barcelona;  y como <span>Director de arte</span>, en la agencia de publicidad Eje i Munta&#241;ola Comunicaci&#243;, durante 14 a&#241;os.<br>
-	<span>Desde el 2000</span> desarrolla su actividad profesional<br> como freelance, colaborando tanto con la administraci&#243;n p&#250;blica, como con empresas privadas.<br></p>
+<span>TRAJECTOIRE PROFESSIONNELLE:</span><br>
+<p>Il a travaill&eacute; comme <span>Graphiste</span> sur<br>
+TV3-T&eacute;l&eacute;vision de Catalunya (parmi d&iacute;autres studios) et pendant 14 ans comme <span>Directeur artistique</span><br>
+publicit&eacute; Eje-Munta&ntilde;ola communication, de Barcelone.<br>
+<span>Depuis l&#39;ann&eacute;e 2000</span> d&eacute;veloppe son activit&eacute; professionnelle comme freelance, pour li administration publique et les entreprises priv&eacute;es.<br></p>
 
-	<p>En los &#250;ltimos a&#241;os, como <span>Director de arte</span> y<br> <span>Dise&#241;ador gr&#225;fico</span>, ha colaborado, entre otros,<br> con: Ayuntamiento de Barcelona, Generalitat<br> de Catalunya, Ayuntamiento de Mollet del Vall&#233;s,<br> Diputaci&#243;n de Barcelona, Grupo Planeta, Rosa Bisbe,<br> Saldonar edicions, Ara llibres, Barcelona Activa,<br>  Fundaci&#243;n La Caixa, RBA editores, L&#39;Aven&#231;...</p>
+	<p>Comme un concepteur <span>ArtDirector-GraphicDesign</span>,<br>
+ces derni&egrave;res ann&eacute;es, il a collabor&eacute;, entre autres, avec:
+Ajuntament (Mairie) de Barcelona, Generalitat (Gouvernement) de Catalunya, Diputaci&oacute; (Gouvernement Central) de Barcelona, Fundaci&oacute; La Caixa, RBA livres et Marketing, L&#39;Aven&ccedil; (histoire et culture magazine), Grupo Planeta, &Eacute;ditorial, RosaBisbe, bijoux, Saldonar, &Eacute;ditions, Ara llibres, Barcelona Activa...</p>
 </div>
 <div class="career">
-	<p>Ha sido profesor de Proyectos en las escuelas de dise&#241;o Elisava y Bau, de Barcelona.</p>
+	<p>Il a &eacute;t&eacute; professeur li &Eacute;cole de design Elisava et Bau, de Barcelone, pendant plusieurs ann&eacute;es.</p>
 
-	<p>Ha participado como ha jurado,<br> en varios concursos de dise&#241;o.</p>
+	<p>... et a particip&eacute; com un jur&eacute; dans diverses comp&eacute;titions.</p>
 
-	<span>FORMACI&#211;:</span><br>
-	<p>Estudios relacionados con las Artes pl&#225;sticas, el Dise&#241;o gr&#225;fico, la Semiolog&#237;a, la Fotograf&#237;a, el Cine, el V&#237;deo, la Creatividad,... y tambi&#233;n con temas extraprofesionales como el Arte, la M&#250;sica, la Historia, la Naturaleza, la Horticultura, la Gastronom&#237;a, etc....</p>
+	<span>FORMATION:</span><br>
+	<p>Il a fait des &Eacute;tudes portant sur les Arts plastiques, Design graphique, S&eacute;miologie, Photographie, Cin&eacute;ma, Vid&eacute;o, Cr&eacute;ativit&eacute;,...et aussi sur th&egrave;mes extraprofessionnelles comme art, musique, nature, Horticulture, gastronomie, histoire, etc.</p>
 </div>
 <div class="personal">
 	Badia 16, pral 1a.<br>
-	08012 Barcelona, Espa&#241;a.<br>
+	08012 Barcelone, Espagne.<br>
 	+34 932 173 448<br>
 	+34 654 040 714 <br> <br>
 	<a href="http://www.grafic.info/kilografik/index.html" target="_blank">www.kilografik.com</a><br>
@@ -26,7 +30,7 @@
 	<div class="mail">
 		<a href="mailto:enric@kilografik.com" id="btn_mail"></a>
 	</div>
-	<span>DESCARGAS:</span><br>
-	Portafolios (PDF_ DinA4) Fra<br>
+	<span>T&Eacute;L&Eacute;CHARGEMENT:</span><br>
+	Portefeuille (PDF_ DinA4) Fra<br>
 	<div id="portafolios"></div>
 </div>
