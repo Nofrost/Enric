@@ -14,4 +14,7 @@
 <script src="js/dw_scroll_c.js"></script>
 <script src="js/main.js"></script>
 
+<!-- Icons -->
+<link rel="shortcut icon" type="image/x-icon" href="Imatges/AvatarEM.jpg">
+
 <title><?php echo (empty($page_title)) ? 'Enric_Mu&#241;oz' : $page_title; ?></title>
