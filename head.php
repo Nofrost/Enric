@@ -17,4 +17,4 @@
 <!-- Icons -->
 <link rel="shortcut icon" type="image/x-icon" href="Imatges/AvatarEM.jpg">
 
-<title><?php echo (empty($page_title)) ? 'Enric_Mu&#241;oz' : $page_title; ?></title>
+<title><?php echo (empty($page_title)) ? 'Enric Mu&#241;oz' : $page_title; ?></title>
