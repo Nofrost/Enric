@@ -36,11 +36,11 @@ div#scrollbar .left {
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
-div#scrollbar .left:active{
-	background-image:url('../Imatges/Fletxes5-03.svg');
-}
 div#scrollbar .left:hover {
 	background-image:url('../Imatges/Fletxes5-02.svg');
+}
+div#scrollbar .left:active{
+	background-image:url('../Imatges/Fletxes5-03.svg');
 }
 div#scrollbar .right {
 	/*position:absolute;
@@ -51,11 +51,11 @@ div#scrollbar .right {
 	cursor: pointer;
 	float: right;
 }
-div#scrollbar .right:active {
-	background-image:url('../Imatges/Fletxes6-03.svg');
-}
 div#scrollbar .right:hover {
 	background-image:url('../Imatges/Fletxes6-02.svg');
+}
+div#scrollbar .right:active {
+	background-image:url('../Imatges/Fletxes6-03.svg');
 }
 div#scrollbar .trackOLD {
 	position:absolute; /* track must be positioned */
