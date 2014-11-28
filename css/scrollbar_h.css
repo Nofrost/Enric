@@ -23,8 +23,7 @@ div#scrollbar {
 div#scrollbar .btn_container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 795px;
-	padding-left: 85px;
+	width: 904px;
 	position: relative;
 	top: -60px;
 }
@@ -33,30 +32,30 @@ div#scrollbar .left {
 	left:0; top:0;*/
 	float: left;
 	width:34px; height:34px; /* specify width and height of your image */
-	background-image:url('../Imatges/Fletxes1-02.svg');
+	background-image:url('../Imatges/Fletxes5-01.svg');
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
 div#scrollbar .left:active{
-	background-image:url('../Imatges/Fletxes1-03.svg');
+	background-image:url('../Imatges/Fletxes5-03.svg');
 }
 div#scrollbar .left:hover {
-	background-image:url('../Imatges/Fletxes1-01.svg');
+	background-image:url('../Imatges/Fletxes5-02.svg');
 }
 div#scrollbar .right {
 	/*position:absolute;
 	right:0; top:0;*/
 	width:34px; height:34px; /* specify width and height of your image */
-	background-image:url('../Imatges/Fletxes2-02.svg');
+	background-image:url('../Imatges/Fletxes6-01.svg');
 	background-repeat: no-repeat;
 	cursor: pointer;
 	float: right;
 }
-div#scrollbar .right:active{
-	background-image:url('../Imatges/Fletxes2-03.svg');
+div#scrollbar .right:active {
+	background-image:url('../Imatges/Fletxes6-03.svg');
 }
 div#scrollbar .right:hover {
-	background-image:url('../Imatges/Fletxes2-01.svg');
+	background-image:url('../Imatges/Fletxes6-02.svg');
 }
 div#scrollbar .trackOLD {
 	position:absolute; /* track must be positioned */

@@ -88,9 +88,9 @@ header #logo a {
 }
 #menuLeft{
 	width: 335px;
+	height: 75px;
 	/*line-height: 30px;*/
-	/*line-height: 24px;*/
-	margin-top: 0px;
+	line-height: 21px;
 	float:left;
 }
 #titol{
@@ -110,16 +110,16 @@ header #logo a {
 	color: #615C58;
 	letter-spacing: 3px;
 }
-#sub1, #sub2{
+/*#sub1, #sub2{
 	line-height: 20px;
-}
+}*/
 #menuRight{
 	font-size: 20px;
 	float: right;
 	width: 440px;
 	line-height: 25px;
 	/* line-height: 33px;*/
-	/*margin-top: -5px;*/
+	margin-top: -4px;
 }
 #menuRight > span > a{
 	text-decoration:none;
@@ -267,7 +267,7 @@ div #idiomes{
 }
 .personal{
 	width: 188px;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: font-family: 'InterstateLight';
 }
 .personal a{
