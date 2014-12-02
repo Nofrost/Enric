@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="53px" height="53px" viewBox="0 0 53 53" enable-background="new 0 0 53 53" xml:space="preserve">
+<image overflow="visible" opacity="0.5" enable-background="new    " width="61" height="61" xlink:href="FBC9718788542BC1.png"  transform="matrix(0.9836 0 0 0.9836 -2.5513 -2.5513)">
+</image>
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="17.7437" y1="16.1709" x2="48.3276" y2="52.0132">
+			<stop  offset="0" style="stop-color:#FF6F00"/>
+			<stop  offset="1" style="stop-color:#FF0000"/>
+		</linearGradient>
+		<rect x="-1.26" y="-1.122" fill="url(#SVGID_1_)" width="55.493" height="55.078"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-1.26" y="-1.122" width="55.493" height="55.078">
+
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="-1.26" y="-1.122" width="55.493" height="55.078" id="SVGID_2_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			<image overflow="visible" width="61" height="60" xlink:href="FBC9718788542BC3.jpg"  transform="matrix(1 0 0 1 -4 -4)">
+			</image>
+		</g>
+	</mask>
+	<g mask="url(#SVGID_2_)">
+		<rect x="-1.26" y="-1.122" fill="#CD0000" width="55.493" height="55.078"/>
+	</g>
+</g>
+<g enable-background="new    ">
+
+		<image overflow="visible" opacity="0.74" width="12" height="13" xlink:href="FBC9718788542BC6.png"  transform="matrix(1 0 0 1 5.1797 9.1797)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="10.768" cy="15.25" r="4.762"/>
+	</g>
+</g>
+<g enable-background="new    ">
+
+		<image overflow="visible" opacity="0.74" width="12" height="13" xlink:href="FBC9718788542BC7.png"  transform="matrix(1 0 0 1 5.1797 20.1797)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="10.768" cy="26.358" r="4.762"/>
+	</g>
+</g>
+<g enable-background="new    ">
+
+		<image overflow="visible" opacity="0.74" width="12" height="13" xlink:href="FBC9718788542BC2.png"  transform="matrix(1 0 0 1 5.1797 31.1797)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="10.768" cy="37.47" r="4.762"/>
+	</g>
+</g>
+<g enable-background="new    ">
+
+		<image overflow="visible" opacity="0.74" width="12" height="13" xlink:href="FBC9718788542BC3.png"  transform="matrix(1 0 0 1 16.1797 20.1797)">
+	</image>
+	<g>
+		<circle cx="21.878" cy="26.36" r="4.761"/>
+	</g>
+</g>
+<g enable-background="new    ">
+
+		<image overflow="visible" opacity="0.74" width="13" height="13" xlink:href="FBC9718788542BCE.png"  transform="matrix(1 0 0 1 27.1797 20.1797)">
+	</image>
+	<g>
+		<circle cx="32.987" cy="26.36" r="4.761"/>
+	</g>
+</g>
+<g enable-background="new    ">
+
+		<image overflow="visible" opacity="0.74" width="13" height="13" xlink:href="FBC9718788542BCF.png"  transform="matrix(1 0 0 1 38.1797 20.1797)">
+	</image>
+	<g>
+		<circle cx="44.099" cy="26.36" r="4.761"/>
+	</g>
+</g>
+</svg>

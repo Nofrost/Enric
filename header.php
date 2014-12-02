@@ -3,7 +3,7 @@
 <header>
 	<div id="header_wrapper">
 		<div id="logo">
-			<a href="index.php"><img src="Imatges/Logo_EM.svg" /></a>
+			<a href="index.php"><img src="Imatges/Logo_EM_2.svg" /></a>
 		</div>
 
 		<div id="menu">
