@@ -81,7 +81,7 @@ function init_dw_Scroll() {
 	dw_scrollObjInstance.buildScrollControls('scrollbar', 'h', 'mouseover', true);
 	//Lenin: Windows resize & init scroll
 	dw_Event.add( window, 'resize', function(){ window.dw_scrollObjInstance.updateDims(); } );
-	if($("#intro").hasClass('activeMenu')){
+	if($("#page_index").length > 0){
 	window.dw_scrollObjInstance.initScrollVals(0);
 	}
 }

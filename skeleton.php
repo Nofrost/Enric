@@ -8,7 +8,7 @@
 		<?php include "head.php"; ?>
 	</head>
 
-	<body>
+	<body id="page_<?php echo $page; ?>">
 		<!--<div id="guia_layout"></div>-->
 
 		<?php include "header.php"; ?>

@@ -19,13 +19,15 @@
 <div class="personal">
 	Badia 16, pral 1a.<br>
 	08012 Barcelona, Espanya.<br>
+	+34 654 040 714 <br>
 	+34 932 173 448<br>
-	+34 654 040 714 <br> <br>
 	<a href="http://www.grafic.info/kilografik/index.html" target="_blank">www.kilografik.com</a><br>
 	enric@kilografik.com<br>
 	<div class="mail">
 		<a href="mailto:enric@kilografik.com" id="btn_mail"></a>
 	</div>
+	<br>
+	<br>
 	<span>DESC&#192;RREGUES:</span><br>
 	Portafolis (PDF_DinA4) Cat<br>
 	<div id="portafolios"></div>

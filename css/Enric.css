@@ -105,10 +105,12 @@ header #logo a {
 /*	letter-spacing: 3px;*/
 }
 #sub2{
-	font-size: 17px;
+	position:relative;
+	top: -2px;
+	font-size: 15px;
 	margin-bottom: 49px;
 	color: #615C58;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 }
 /*#sub1, #sub2{
 	line-height: 20px;
@@ -199,6 +201,9 @@ margin-left: 57px;
 	vertical-align: top;
 	color: #76716D;
 	font-size: 12px;
+}
+#page_index #main tr{
+	font-size: 16px;
 }
 #main tr.images .space {
 	min-width: 20px;
