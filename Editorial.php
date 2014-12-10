@@ -1,4 +1,4 @@
 <?php
 $page = 'editorial';
-$page_title = 'Enric Mu&#241;oz: Editorial Design';
+$page_title = 'KILOGRAFIK / ENRIC MU&Ntilde;OZ: Editorial Design';
 include 'skeleton.php';
