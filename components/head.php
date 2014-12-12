@@ -2,7 +2,7 @@
 
 <!-- Configurations, CSS & JS -->
 <meta charset="UTF-8">
-<meta name="description" content="Enric Muñoz">
+<meta name="description" content="HOT DESIGN + EMOTIONAL COMMUNICATION / GRAPHIC WORKS / SOLUCIONES GR&Aacute;FICAS / TREBALLS GR&Agrave;FICS / Graphic Designer, Art Director, Illustrator / Dise&ntilde;ador, Director de Arte, Ilustrador.">
 <meta name="keywords" content="dise&ntilde;o,disseny,design,gr&aacute;fico,grafic,graphic,dise&ntilde;ador,dissenyador,designer,identity,identidad,identitat,logo,logotipo,il&#39;lustraci&oacute;,illustration, ilustraci&oacute;n,editorial,book,cover,libro,llibre,coberta,cubierta,anuncio,advertising,publising,poster,marca">
 <meta name="author" content="Enric Muñoz">
 

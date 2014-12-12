@@ -8,13 +8,17 @@
 		<?php include "head.php"; ?>
 	</head>
 
-	<body>
-		<!--<div id="guia_layout"></div>-->
+	<body id="page_<?php echo $page; ?>">
+<?php
+		include "header.php";
 
-		<?php include "header.php"; ?>
+		if($page =='about') {
+			include "main_about.php";
+		} else {
+			include "main.php";
+		}
 
-		<?php include "main_about.php"; ?>
-
-		<?php include "footer.php"; ?>
+		include "footer.php";
+?>
 	</body>
 </html>
